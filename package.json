@@ -16,6 +16,6 @@
   "author": "Jay Deaton",
   "license": "ISC",
   "dependencies": {
-    "cosmetic": "^1.1.1"
+    "cosmetic": "^1.1.2"
   }
 }
