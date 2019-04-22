@@ -1,6 +1,6 @@
 {
   "name": "termchart",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create charts in your terminal",
   "main": "index.js",
   "scripts": {
