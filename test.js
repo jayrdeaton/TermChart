@@ -1,14 +1,17 @@
 const TermChart = require('./'),
   cosmetic = require('cosmetic');
 
+const randomNumber = () => parseFloat((Math.random() * 100).toFixed(2))
+
 const termChart = new TermChart([
-  { key: 'Alpha', value: 20, character: '-' },
-  { key: 'Bravo', value: 30 , style: s => cosmetic.background.red(s) },
+  { key: 'Alpha', value: randomNumber(), style: s => cosmetic.background.random(s) },
+  { key: 'Bravo', value: randomNumber(), style: s => cosmetic.background.random(s) },
+  { key: 'Charlie', value: randomNumber(), style: s => cosmetic.background.random(s) },
+  { key: 'Delta', value: randomNumber(), style: s => cosmetic.background.random(s) },
+  { key: 'Echo' },
+  { key: 'Foxtrot', value: randomNumber(), character: '+', style: s => cosmetic.random(s) },
+  { value: randomNumber(), style: s => cosmetic.background.random(s) },
   null,
-  { key: 'Charlie', value: 50, character: '+', style: s => cosmetic.green(s) },
-  { key: 'Delta' },
-  { value: 25 },
-  { key: 'Echo', value: 60 }
 ]);
 
 termChart.print();
