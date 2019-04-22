@@ -1,5 +1,7 @@
-const padString = require('./padString');
+const padString = require('./padString'),
+  stringLength = require('./stringLength');
 
 module.exports = {
-  padString
+  padString,
+  stringLength
 };
