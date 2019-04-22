@@ -14,5 +14,8 @@
     "log"
   ],
   "author": "Jay Deaton",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "string-length": "^3.1.0"
+  }
 }
